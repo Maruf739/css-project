@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="galary.css">
+
+</head>
+<body>
+
+	 <div class="header-section">
+<div class="container">
+                   <div class="row">
+                     <div class="none1"></div>
+
+
+                    <div class="menu">
+                            <ul>
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="About.html">About</a></li>
+                                <li><a href="Galary.html">Photo Galary</a></li>
+                                <li><a href="Contact.html">Contact Us</a></li>
+                                
+                            </ul>
+                    </div>
+                    <div class="none"></div>
+                   </div>
+            </div>
+            <hr>
+            </div>
+
+            <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/slide1.jpg" style="width:100%">
+  <div class="text">Hatirjheel</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/slide2.jpg" style="width:100%">
+  <div class="text">National Memorial</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/slide3.jpg" style="width:100%">
+  <div class="text">Jamuna Future Park</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+    <div class="galary">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2> Lalbagh Kella </h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="img/lalbagh1.jpg" alt="">
+                            <img src="img/lalbagh2.jpg" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/lalbagh3.jpg" alt="">
+                            <img src="img/lalbagh4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h2> Dhaka University </h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="img/university1.jpg" alt="">
+                            <img src="img/university2.jpg" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/university3.jpg" alt="">
+                            <img src="img/university4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2> Hatirjhil </h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="img/hatirjheel1.jpg" alt="">
+                            <img src="img/hatirjheel2.jpg" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/hatirjheel3.jpg" alt="">
+                            <img src="img/hatirjheel4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h2> Sadar Ghat </h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="img/sadar1.jpg" alt="">
+                            <img src="img/sadar2.jpg" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/sadar3.jpg" alt="">
+                            <img src="img/sadar4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+     
+        <div class="marque">
+          <marquee><p>Dhaka was the capital of the proto-industrialised Mughal Bengal for 75 years (1608–39 and 1660–1704). As the center of the muslin trade in Bengal.</p></marquee>
+        </div>
+     
+    </div>
+</body>
+</html>

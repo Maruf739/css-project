@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-section{
+    background-color: #fff;
+    text-align: center;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.header-section{
+    background-color: #72D4EC;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+
+}
+
+ul li a:hover{
+    color:white;
+    background-color: #2AE52E;
+    font-weight: bold;
+   
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.tab-nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+}
+.tab-nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+ul li a:hover{
+    color:green;
+    text-decoration: underline;
+}
+.menu{
+    padding: 10px;
+}
+
+.banner-section{
+    background-image: url(img/cover2.jpg);
+    background-size: cover;
+    padding: 300px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.banner-section img{
+    border-radius: 60%;
+    position: absolute;
+    left: 15px;
+    top: 90px;
+
+}
+
+
+
+.banner-section h1{
+    text-align: center;
+    font-size: 100px;
+    color: #F94343;
+
+}
+.service-section{
+    padding: 60px 0;
+}
+.col-3{
+    flex-basis: 20%;
+}
+.col-3 img{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.col-3 .fas{
+    font-size: 35px;
+    color: green;
+   float: left;
+   margin-right: 25px;
+   font-weight: 200;
+}
+
+ h3{
+        font-size: 18px;
+        font-weight: 500;
+}
+.col-3 p{
+   
+    margin-top: 20px;
+}
+
+
+
+.enterprener-section{
+    padding: 100px 0 ;
+    text-align: center;
+    background-blend-mode: multiply;
+    background-color:  rgba(0,0,0,0.8);
+    color: #fff;
+}
+.enterprener-section h1{
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 500;
+}
+
+
+.news-section{
+    padding: 100px 0;
+}
+.contact{
+    flex-basis: 30%;
+    padding: 40px;
+    background-color: #780DE6;
+    color: #fff;
+}
+
+.contact p{
+    margin: 20px 0;
+}
+
+form{
+    width: 100%;
+}
+
+input{
+    width: 99%;
+    padding: 10px 0;
+    padding-left: 5px;
+    margin: 2px 0;
+    background-color: rgb(226, 226, 226);
+    border: none;
+}
+
+select{
+    width: 100%;
+    padding: 10px 0;
+    margin: 2px 0;
+}
+
+.frm-btn{
+    background-color: pink;
+    padding: 10px 0;
+    border: none;
+    transition: .5s;
+    width: 100%;
+}
+
+.frm-btn:hover{
+    background-color: red;
+    color: #fff;
+}
+
+.news{
+    flex-basis: 60%;
+
+}
+
+.news-card{
+    display: flex;
+    margin: 25px 0;
+
+}
+
+.news li{
+    list-style: circle;
+    margin-top: 15px;
+    border-bottom: 1px solid black;
+
+}
+.footer-section{
+    padding: 100px 0;
+    background-color: #000;
+}
+
+.footer-col-4{
+    color: #fff;
+    flex-basis: 20%;
+}
+.footer-col-4 img{
+    width: 150px;
+    margin-bottom: 25px;
+}
+
+.footer-col-4 p{
+    margin: 15px 0;
+}
+.footer-col-4  .fas{
+    margin-right: 15px;
+}
+
+.social .fab{
+    margin: 15px;
+    font-size: 35px;
+    color: pink;
+}
+.social  a{
+    text-decoration: none;
+    display: inline-block;
+}
+
